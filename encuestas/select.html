@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Seguros Atlas</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/css/swiper.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="bar-top">
+        </div>
+        <div class="logo_header">
+            <img src="src/logo_sa.svg" alt="" height="55" width="251">
+        </div>
+    </header>
+<main>
+  <div class="c-head">
+    <H5 class="t_header poppins-semibold">Siniestro autos</H5>
+    <p class="t_parrafo poppins-light mb-0">En una escala del 1 al 10, donde 10 es muy probable y 1 es nada probable. ¿Qué tan probable es que recomiende a un amigo o familiar el taller donde arreglaron su auto?(*) </p>
+  </div>
+
+    <div class="c-head pad-3">
+      <label class="card card-disabled border-0 bg-transparent w-100 he-50">
+          <div id="js-number-slider" class="number__slider-wrapper swiper-container">
+  <span class="number__slider-indicator"></span>
+  <div class="swiper-wrapper number__slider">
+    
+    <!-- SLIDER ITEM -->
+    <div class="number__slider-item swiper-slide">
+      <span>Elige una opción</span>
+    </div>
+    <div class="number__slider-item swiper-slide selected">
+      <span>1</span>
+    </div>
+    <!-- SLIDER ITEM -->
+    
+    <!-- SLIDER ITEM -->
+    <div class="number__slider-item swiper-slide">
+      <span>2</span>
+    </div>
+    <!-- SLIDER ITEM -->
+    
+    <!-- SLIDER ITEM -->
+    <div class="number__slider-item swiper-slide">
+      <span>3</span>
+    </div>
+    <!-- SLIDER ITEM -->
+    
+    <!-- SLIDER ITEM -->
+    <div class="number__slider-item swiper-slide">
+      <span>4</span>
+    </div>
+    <!-- SLIDER ITEM -->
+    
+    <!-- SLIDER ITEM -->
+    <div class="number__slider-item swiper-slide">
+      <span>5</span>
+    </div>
+    <!-- SLIDER ITEM -->
+    
+    <!-- SLIDER ITEM -->
+    <div class="number__slider-item swiper-slide">
+      <span>6</span>
+    </div>
+    <!-- SLIDER ITEM -->
+    
+    <!-- SLIDER ITEM -->
+    <div class="number__slider-item swiper-slide">
+      <span>7</span>
+    </div>
+    <!-- SLIDER ITEM -->
+    
+    <!-- SLIDER ITEM -->
+    <div class="number__slider-item swiper-slide">
+      <span>8</span>
+    </div>
+    <!-- SLIDER ITEM -->
+    
+    <!-- SLIDER ITEM -->
+    <div class="number__slider-item swiper-slide">
+      <span>9</span>
+    </div>
+    <!-- SLIDER ITEM -->
+    
+    <!-- SLIDER ITEM -->
+    <div class="number__slider-item swiper-slide">
+      <span>10</span>
+    </div>
+    <!-- SLIDER ITEM -->
+    
+    <!-- SLIDER ITEM -->
+    <div class="number__slider-item swiper-slide">
+      <span>11</span>
+    </div>
+    <!-- SLIDER ITEM -->
+    
+    <!-- SLIDER ITEM -->
+    <div class="number__slider-item swiper-slide">
+      <span>12</span>
+    </div>
+    <!-- SLIDER ITEM -->
+  </div>
+</div>
+
+      </label>
+    </div>
+    <div class="text-center">
+     <button class="btn btn-danger btn-cont">Siguiente</button>
+    </div>
+</main>
+
+<footer class="footer fixed-bottom text-center">
+  <div>
+<p class="mb-0">Powered by <img src="src/logo_on.svg" width="80"> </p>
+  </div>
+</footer>
+
+
+  <script src="img/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script>
+        const slider = document.getElementById("js-number-slider");
+
+const interleaveOffset = 0.75;
+
+const swiper = new Swiper(slider, {
+  loop: false,
+  direction: "vertical",
+  speed: 100,
+  grabCursor: true,
+  mousewheelControl: true,
+  mousewheel: true,
+  slidesPerView: 5,
+  freeMode: true,
+  freeModeMomentum: true,
+  freeModeSticky: true,
+  centeredSlides: true
+});
+
+    
+    </script>
+</body>
+</html>
