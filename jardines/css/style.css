@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F8F9FA;
+    color: #153545;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+html, body {
+    height: 100%;
+}
+
+.bg_form{
+    background-image: url(/src/img_background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.t-green{
+    color: #33647E;
+}
+
+.btn-green {
+    color: #fff;
+    background-color: #33647E;
+    border-color: #33647E;
+}
+
+.br-htop{
+    border-radius: 10px 10px 0px 0px;
+}
+.br-hboto{
+    border-radius: 0px 0px 10px 10px !important;
+}
+
+.br-none{
+    border-radius: 0px;
+}
+
+.b-top{
+    margin-top: -1px
+}
+
+.btn-emp{
+    border-radius: 10px;
+    padding: 16px !important;
+    font-size: 16px;
+    font-weight: 600;
+    color:#FFF ;
+    background-color: #33647E;
+    transition: .5s;
+}
+
+.btn-emp:hover{
+    background-color: #153545;
+    transition: .5s;
+    box-shadow: 0px 4px 8px #ccc;
+    color:#FFF;
+}
+
+.btn-emp:focus{
+    background-color: #153545;
+}

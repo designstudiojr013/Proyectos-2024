@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Jardines del Recuerdo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image" href="src/ico_jardines.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="text-center">
+    
+    <main class="form-signin">
+        <div class="mb-4">
+            <h5 class=" fw-bold">Registro de ticket</h5>
+            <p class="small t-green">Favor de llenar los siguientes campos para capturar su incidente.</p>
+        </div>
+      <form class="">
+        <div class="form-floating">
+          <select class="form-select br-htop" id="floatingSelect" aria-label="Floating label select example">
+            <option selected>Seleccionar</option>
+            <option value="1">Opcion 1</option>
+            <option value="2">Opcion 2</option>
+            <option value="3">Opcion 3</option>
+            <option value="3">Opcion 4</option>
+            <option value="3">Opcion 5</option>
+          </select>
+          <label for="floatingSelect">Aplicativo*</label>
+        </div>
+        <div class="form-floating">
+          <textarea class="form-control b-top br-none" placeholder="Leave a comment here" id="floatingTextarea2" rows="1"></textarea>
+          <label for="floatingTextarea2">Titulo*</label>
+        </div>
+          <div class="form-floating">
+          <select class="form-select b-top br-none" id="floatingSelect" aria-label="Floating label select example">
+            <option selected>Seleccionar</option>
+            <option value="1">Opcion 1</option>
+            <option value="2">Opcion 2</option>
+            <option value="3">Opcion 3</option>
+            <option value="3">Opcion 4</option>
+            <option value="3">Opcion 5</option>
+          </select>
+          <label for="floatingSelect">Prioridad*</label>
+        </div>
+          <div class="form-floating">
+          <select class="form-select b-top br-none" id="floatingSelect" aria-label="Floating label select example">
+            <option selected>Seleccionar</option>
+            <option value="1">Opcion 1</option>
+            <option value="2">Opcion 2</option>
+            <option value="3">Opcion 3</option>
+            <option value="3">Opcion 4</option>
+            <option value="3">Opcion 5</option>
+          </select>
+          <label for="floatingSelect">Tipo*</label>
+        </div>
+          <div class="form-floating">
+          <select class="form-select b-top br-none" id="floatingSelect" aria-label="Floating label select example">
+            <option selected>Seleccionar</option>
+            <option value="1">Opcion 1</option>
+            <option value="2">Opcion 2</option>
+            <option value="3">Opcion 3</option>
+            <option value="3">Opcion 4</option>
+            <option value="3">Opcion 5</option>
+          </select>
+          <label for="floatingSelect">Evidencias</label>
+        </div>
+        <div class="form-floating mb-4">
+          <textarea class="form-control  b-top br-hboto" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Descripción</label>
+        </div>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary w-100 btn-emp" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Registrar
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body">
+                <h5 class="modal-title" id="exampleModalLabel">Código Unico</h5>
+                <p class="t-green small">Copia el siguiente folio para dar seguimiento al Ticket</p>
+                  
+                <button type="button" class="w-100 btn btn-primary btn-emp" data-bs-dismiss="modal">Aceptar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <p class="mt-5 mb-3 text-muted">POWERED BY 
+            <a href="https://www.onclickmx.com" target="_blank" class="text-muted"> 
+                <img src="src/logo_onc.svg" height="20px">
+            </a>
+        </p>
+      </form>
+    </main>
+
+  
+  <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>
